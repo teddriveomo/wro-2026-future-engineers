@@ -1,0 +1,28 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Build / logs / large artifacts
+build/
+dist/
+*.log
+*.tmp
+
+# Models / weights (link in /other instead of committing)
+*.onnx
+*.pt
+*.pth
+*.engine
